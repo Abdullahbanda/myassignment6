@@ -1,16 +1,15 @@
-# React + Vite
+# DigiTools - Premium Digital Workflow Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern, responsive web application designed for creators and professionals. It allows users to browse premium digital assets, add them to a dynamic cart, and manage their selections through a sleek, Figma-inspired interface.
 
-Currently, two official plugins are available:
+#  Technology Stack
+* **React (Vite)**: For building a fast, component-based UI.
+* **Tailwind CSS**: For modern "Bento Box" layouts and responsive design.
+* **React-Toastify**: To provide interactive user feedback (Add/Remove/Checkout).
+* **Lucide-React / React Icons**: For high-quality, professional iconography.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#  Key Features
+1.  **Dynamic Toggling System**: Switch between the "Products" grid and the "Cart" view seamlessly using a centralized toggle button.
+2.  **Smart Cart Management**: Add products to increase the Navbar count, view a detailed 1-column cart layout, and calculate totals automatically.
+3.  **Premium UI/UX**: Includes a high-impact Hero Banner, a 3-step "Get Started" guide, and a transparent 3-tier Pricing section.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
